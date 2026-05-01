@@ -4,6 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>五一快乐</title>
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, #f8fbff 0%, #fff3d9 48%, #e9fff4 100%);
+      font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+      overflow: hidden;
+    }
+
+    h1 {
+      margin: 0;
+      color: #e84a5f;
+      font-size: clamp(3rem, 12vw, 8rem);
+      letter-spacing: 0;
+      text-shadow:
+        0 4px 0 #ffd166,
+        0 14px 30px rgba(232, 74, 95, 0.25);
+      animation: float 2.4s ease-in-out infinite, glow 1.8s ease-in-out infinite alternate;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0) scale(1);
+      }
+
+      50% {
+        transform: translateY(-18px) scale(1.04);
+      }
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow:
+          0 4px 0 #ffd166,
+          0 14px 30px rgba(232, 74, 95, 0.25);
+      }
+
+      to {
+        text-shadow:
+          0 4px 0 #06d6a0,
+          0 18px 44px rgba(6, 214, 160, 0.38);
+      }
+    }
+  </style>
 </head>
 <body>
   <h1>五一快乐</h1>
