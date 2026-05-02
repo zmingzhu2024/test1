@@ -3,16 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>五一快乐</title>
+  <title>你好，五一</title>
   <style>
     body {
       min-height: 100vh;
       margin: 0;
-      display: grid;
-      place-items: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background: linear-gradient(135deg, #f8fbff 0%, #fff3d9 48%, #e9fff4 100%);
       font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
       overflow: hidden;
+    }
+
+    main {
+      width: min(86vw, 760px);
+      display: grid;
+      gap: 28px;
+      justify-items: center;
+    }
+
+    img {
+      width: min(76vw, 560px);
+      height: auto;
+      display: block;
+      filter: drop-shadow(0 22px 34px rgba(17, 138, 178, 0.18));
+      animation: pictureFloat 3.2s ease-in-out infinite;
     }
 
     h1 {
@@ -36,6 +52,16 @@
       }
     }
 
+    @keyframes pictureFloat {
+      0%, 100% {
+        transform: translateY(0) rotate(-1deg);
+      }
+
+      50% {
+        transform: translateY(12px) rotate(1deg);
+      }
+    }
+
     @keyframes glow {
       from {
         text-shadow:
@@ -52,6 +78,9 @@
   </style>
 </head>
 <body>
-  <h1>五一快乐</h1>
+  <main>
+    <img src="may-day.svg" alt="你好，五一节日插画">
+    <h1>你好，五一</h1>
+  </main>
 </body>
 </html>

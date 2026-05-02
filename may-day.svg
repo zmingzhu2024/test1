@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">五一快乐节日插画</title>
+  <desc id="desc">阳光、彩旗、鲜花和写有 51 的节日装饰。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#8ed7ff"/>
+      <stop offset="0.55" stop-color="#ffe6a7"/>
+      <stop offset="1" stop-color="#c9f7df"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff6b6b"/>
+      <stop offset="1" stop-color="#ffb703"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#e84a5f" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="720" height="420" rx="32" fill="url(#sky)"/>
+  <circle cx="585" cy="92" r="58" fill="#ffd166"/>
+  <g stroke="#fff2b8" stroke-width="10" stroke-linecap="round">
+    <path d="M585 12v34"/>
+    <path d="M585 138v34"/>
+    <path d="M505 92h34"/>
+    <path d="M631 92h34"/>
+    <path d="M528 35l24 24"/>
+    <path d="M618 125l24 24"/>
+    <path d="M642 35l-24 24"/>
+    <path d="M552 125l-24 24"/>
+  </g>
+  <path d="M70 92c90-48 150 42 240-8 108-60 184 42 340-12" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <g>
+    <path d="M118 99l42 14-34 28z" fill="#ef476f"/>
+    <path d="M218 96l44 9-30 33z" fill="#06d6a0"/>
+    <path d="M326 82l42 15-35 27z" fill="#118ab2"/>
+    <path d="M448 82l42 13-34 29z" fill="#ffd166"/>
+    <path d="M570 76l42 14-35 28z" fill="#ef476f"/>
+  </g>
+  <ellipse cx="360" cy="356" rx="260" ry="32" fill="#118ab2" opacity="0.13"/>
+  <g filter="url(#softShadow)">
+    <path d="M245 154c18-50 88-82 150-58 64 24 92 86 72 139-20 54-88 84-151 60-62-23-91-87-71-141z" fill="url(#badge)"/>
+    <path d="M268 167c12-35 62-58 108-41 47 17 68 64 53 103-15 38-65 59-111 43-45-17-65-65-50-105z" fill="#fff7dc" opacity="0.28"/>
+    <text x="360" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="112" font-weight="800" fill="#ffffff">51</text>
+  </g>
+  <g transform="translate(98 242)">
+    <path d="M52 86c-5-42 4-73 26-93" fill="none" stroke="#118ab2" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="24" cy="36" r="24" fill="#ef476f"/>
+    <circle cx="58" cy="20" r="24" fill="#ffd166"/>
+    <circle cx="90" cy="42" r="24" fill="#06d6a0"/>
+    <circle cx="58" cy="50" r="22" fill="#ffffff"/>
+    <circle cx="58" cy="50" r="10" fill="#ffb703"/>
+  </g>
+  <g transform="translate(548 252)">
+    <path d="M45 78c6-36-4-64-30-84" fill="none" stroke="#118ab2" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="16" cy="38" r="22" fill="#06d6a0"/>
+    <circle cx="48" cy="18" r="22" fill="#ef476f"/>
+    <circle cx="78" cy="40" r="22" fill="#ffd166"/>
+    <circle cx="48" cy="46" r="20" fill="#ffffff"/>
+    <circle cx="48" cy="46" r="9" fill="#ffb703"/>
+  </g>
+</svg>
